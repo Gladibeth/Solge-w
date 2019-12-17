@@ -198,7 +198,8 @@
 		<div class="container-contacto">
 			<h3 class="titulo-contacto">Contactanos</h3>
 			<div class="formulario">
-				<form action="">
+      <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 1, 'title' => false, 'description' => false ) ); ?>
+				<!-- <form action="">
 					<div class="barra-formulario">
 					<div>	<input class="nombre" type="text"  placeholder="Nombre*"></div>
 					<div class="contenido-form">	<input class="telefono" type="text"  placeholder="Apellido"></div>
@@ -208,10 +209,10 @@
 				</form>
 				<div class="form-group">
 	            	<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
-	          	</div>
-		          <div class="contenedor-boton">
+	          	</div> -->
+		          <!-- <div class="contenedor-boton">
 		            <button type="button" class="btn_custom btn--large btn--filled" >Enviar</button>
-		        </div>
+		        </div> -->
 			</div>
 		</div>
 
